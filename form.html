@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Document</title>
+    <script src="form.js"></script>
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+    <div class="circle">
+
+    </div>
+
+    <div class="main">    
+        <div class="container">
+            <div class="title">
+                <h2>Sign up</h2>
+            </div>
+
+            <div class="form">
+                
+                <form id="register"  >
+                    <div class="input"><span class="span"><i aria-hidden="true" class="fa fa-user"></i></span>
+
+                        <input type="text" name="fname" id="fname" value="" placeholder="First name" autocomplete="on">
+                    
+
+                    </div>
+
+                    <div class="input"><span class="span"><i aria-hidden="true" class="fa fa-user"></i></span>
+
+                        <input type="text" name="lname" id="lname" placeholder="Last name" value="" autocomplete="on">
+
+                    </div>
+
+
+                    <div class="input">
+                        <input type="radio" class="chk" name="gender" value="1" id="male">  <font class="rem">Male</font> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;
+                        <input type="radio" class="chk" name="gender" value="2" id="female">  <font class="rem">Female</font>
+                    </div>
+
+                    <div class="input"><span class="span" ><i aria-hidden="true" class="fa fa-envelope"></i></span>
+
+                        <input type="text" name="email" placeholder="Example@example.com" id="email" value="">
+
+                    </div>
+
+                    <div class="input"><span class="span"><i aria-hidden="true" class="fa fa-mobile-phone"></i></span>
+
+                        <input type="text" name="number" placeholder="Contact number" id="number" value="">
+
+                    </div>
+
+                    <div class="input"><span class="span"><i aria-hidden="true" class="fa fa-key"></i></span>
+
+                        <input type="password" name="password" placeholder="password" id="pass" value="">
+
+                    </div>
+
+                    <div class="input"><span class="span"><i aria-hidden="true" class="fa fa-key"></i></span>
+
+                        <input type="password" name="rpassword" placeholder="re-password" id="repass" value="">
+
+                    </div>
+                    <div>
+                        <input type="checkbox" class="chk"  name="cb1" checked>
+                        <font class="rem">I accept terms & condition</font>
+                    </div>
+                    <div> 
+                        <input type="checkbox" class="chk" name="cb2" checked> 
+                        <font class="rem">I want to receive the newsletter</font>
+                        
+                    </div>
+
+                    <input type="button" onclick="validation()" class="button" value="submit" >
+                </form>
+
+            </div>
+
+        </div>
+    </div>
+
+    
+
+</body>
+
+</html>
